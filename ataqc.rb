@@ -1,13 +1,12 @@
 class Ataqc < Formula
   desc ""
   homepage "https://github.com/ParkerLab/ataqc"
-  url "https://github.com/ParkerLab/ataqc/archive/0.4.0.tar.gz"
-  version "0.4.0"
-  sha256 "1d1b06269f9fbac311b8bcd021531dd33a8cca1d6206ca00bd6349d8ea555d5d"
-  depends_on "boost"
-  depends_on "htslib"
+  url "https://github.com/ParkerLab/ataqc/archive/0.4.1.tar.gz"
+  version "0.4.1"
+  sha256 "57a828aecf6e0e237da721948b73a59f78b8c05fa5253b4467cb62473acff515"
+  depends_on "homebrew/science/htslib"
 
   def install
-    system "make", "install", "PREFIX=/usr/local/Cellar/ataqc/0.4.0/"
+    system "make", "install", "PREFIX=#{HOMEBREW_PREFIX}/Cellar/ataqc/0.4.1/"
   end
 end
