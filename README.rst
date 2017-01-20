@@ -9,7 +9,7 @@ install our software on Macs. To use it, run::
 
 And you'll be able to install our packages with something like::
 
-  brew install ataqc
+  brew install ataqv
 
 ****
 Help
@@ -17,4 +17,4 @@ Help
 
 If you have questions or suggestions, mail us at `parkerlab-software@umich.edu`_.
 
-.. _parkerlab-software@umich.edu: mailto:parkerlab-software@umich.edu?subject=ataqc
+.. _parkerlab-software@umich.edu: mailto:parkerlab-software@umich.edu?subject=homebrew-tap
