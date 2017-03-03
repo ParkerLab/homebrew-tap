@@ -8,6 +8,6 @@ class Ataqv < Formula
   depends_on "homebrew/science/htslib"
 
   def install
-    system "make", "install", "PREFIX=#{HOMEBREW_PREFIX}/Cellar/ataqv/0.6.3/"
+    system "make", "install", "prefix=#{HOMEBREW_PREFIX}/Cellar/ataqv/0.6.3/"
   end
 end
