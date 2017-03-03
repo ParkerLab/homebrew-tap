@@ -9,5 +9,5 @@ class Ataqv < Formula
 
   def install
     system "make", "install", "prefix=#{HOMEBREW_PREFIX}/Cellar/ataqv/0.6.5/"
-  End
+  end
 end
